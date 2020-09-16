@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>LGBT出会い系お問い合わせホーム</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="top_menu clearfix">
+            <li><a href="">ホーム</a></li>
+            <li><a href="">相手を探す</a></li>
+            <li><a href="">直接会ってみる</a></li>
+            <li><a href="">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <img src="./img/gay-vector-flag-lgbt-sign-260nw-195870644.webp" class="image_area">
+        <p id="image_wrapper">
+          <img src="./img/img1.jpg" id="img1">
+          <img src="./img/img2.jpg" id="img2">
+          <img src="./img/img3.jpg" id="img3">
+          <img src="./img/img4.jpg" id="img4">
+        </p>
+        <div class="wrapper clearfix">
+          <article class="content">
+            <form action="#">
+              <table class="contact">
+                <tr>
+                  <th>お名前</th>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <th>メールアドレス</th>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <th>性別</th>
+                  <td id="table_sex">
+                    <input type="checkbox">男
+                    <input type="checkbox">女
+                    <input type="checkbox">L
+                    <input type="checkbox">G
+                    <input type="checkbox">B
+                    <input type="checkbox">T
+                  </td>
+                </tr>
+                <tr>
+                  <th>お問い合わせ内容</th>
+                  <td><textarea id="textarea"></textarea></td>
+                </tr>
+              </table>
+              <p class="submit fake_button">送信</p>
+
+              <div class="modal js_modal">
+                <div class="modal_bg js_modal_close"></div>
+                <div class="modal_content">
+                  <p>以下の内容でお間違いないですか？</p>
+                  <div class="confirm_box">
+                    <div class="confirm_container">
+                      <p id="confirm_content">内容表示</p>
+                    </div>
+                  </div>
+                  <input type="submit" value="OK！" class="submit">
+                </div>
+              </div>
+
+            </form>
+          </article>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>マッチングサイト</p>
+      </footer>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="./js/contact.js"></script>
+  </body>
+</html>
